@@ -1,0 +1,448 @@
+@font-face {
+    font-family: "Regular";   
+    src: local("POORRICHARD"),
+      url("../POORICH.TTF") format("truetype");
+}
+@font-face {
+    font-family: "unicode";   
+    src: local("LUDICA"),
+      url("../Lucida Sans Unicode.ttf") format("truetype");
+}
+@font-face {
+    font-family: "bell";   
+    src: local("BELL MT"),
+      url("../BellMTBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "pris";   
+    src: local("PRISTINA"),
+      url("../PRISTINA.TTF") format("truetype");
+}
+@font-face {
+    font-family: "Rockwell";   
+    src: local("Rock"),
+      url("../ROCK.TTF") format("truetype");
+}
+@font-face{
+    font-family:"open";
+    src: local("OpenSans"),
+    url("../OpenSans-Regular.ttf") format("truetype");
+}
+
+
+.contactsec {
+    width: 100%;
+    height: 180vh;
+    /*background: rgba(232, 232, 232, 0.831);*/
+}
+
+.contactsec .contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 96vh;
+}
+
+.contactsec .contact .contactup .tcontact{
+    font-family: 'Regular';
+    font-size: 50px;
+    color: #FFB300;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px #0000002b;
+}
+
+.contactsec .contactup .pcontact{
+    font-family: 'unicode';
+    margin-top: -23px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.contactsec .contact .aboutimg {
+    margin-top: 13px;
+    height: 432px;
+    width: 567px;
+    display: inline-block;
+}
+
+.contactsec .contact .contactup{
+    margin-left: 12%;
+    text-align: left;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.contactsec .contact button{
+    border-radius: 25px;
+    border: 3px solid #FFB300;
+    box-shadow: 1px 1px 3px #00000054 ,inset 0px 0px 8px 1px #6b6b6b21;
+    
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'unicode';
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.contactsec .contact button:hover{
+    transform: scale(1.1);
+}
+
+
+/*---- contact section ----*/
+.contactus .containercontact{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.tweet{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: linear-gradient(to right, #c9c9c94a, #a8a8a830);
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000002e, 0px 0px 19px 11px #6b6b6b05;
+    position: relative;
+    height: 350px;
+    margin-right: 10px;
+    
+}
+
+.Latest{
+    width: 400px;
+    background: linear-gradient(to right, #c9c9c94a, #a8a8a830);
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000002e, 0px 0px 19px 11px #6b6b6b05;
+    position: relative;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.location{
+    width: 400px;
+    background: linear-gradient(to right, #c9c9c94a, #a8a8a830);
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000002e, 0px 0px 19px 11px #6b6b6b05;
+    position: relative;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.ourcontact{
+    width: 400px;
+    background: linear-gradient(to right, #c9c9c94a, #a8a8a830);
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000002e, 0px 0px 19px 11px #6b6b6b05;
+    position: relative;
+    height: 350px;
+}
+
+.tweet .heading{
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'bell';
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.tweet .conttitle1{
+    font-family: 'bell';
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: -20px;
+}
+.tweet .conttitle1 span{
+    font-weight: 600;
+}
+.tweet .contsub1{
+    font-family: 'bell';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: -5px;
+}
+.tweet .follow{
+    color: rgb(36, 139, 229);
+    display: flex;
+    flex-direction: row;
+    width: 235px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.tweet .icon{
+    font-size: 20px;
+    width: 56px;
+    height: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.tweet .followc{
+    font-family: "open";
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.Latest .heading{
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'bell';
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Latest .conttitle2{
+    font-family: 'bell';
+    font-size: 15px;
+}
+.Latest .conttitle2 .wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrap .para_1{
+    font-weight: 600;
+}
+.wrap .para_2{
+    justify-content: center;
+    width: 231px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+.wrap .para_3{
+    justify-content: center;
+    width: 231px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+.conttitle2 span{
+    position: relative;
+    left: 72px;
+    font-size: 13px;
+    top: -11px;
+}
+
+
+
+
+
+
+
+
+.ourcontact .heading{
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'bell';
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ourcontact .iconsicon{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ourcontact .iconsicon .iconc1{
+    width: 51px;
+    height: 51px;
+    color: rgb(26, 70, 216);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.ourcontact .iconsicon .iconc2{
+    width: 51px;
+    height: 51px;
+    color:rgb(197, 26, 149);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.ourcontact .iconsicon .iconc3{
+    width: 51px;
+    height: 51px;
+    color: rgb(36, 139, 229);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.iconsicon .iconc1:hover{
+    transform: scale(1.1);
+}
+.iconsicon .iconc2:hover{
+    transform: scale(1.1);
+}
+.iconsicon .iconc3:hover{
+    transform: scale(1.1);
+}
+.conttitle4 .contc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 22px;
+}
+.conttitle4 .contc .iconsc1{
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conttitle4 .contc .iconc4{
+    width: 40px;
+    height: 40px;
+    margin-left: -26px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.contc .iconc4 .phone{
+    margin-left: -40px;
+}
+.conttitle4 .contc .iconc4:hover{
+    transform: scale(1.1);
+}
+
+.conttitle4 .contc .iconc5{
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.conttitle4 .contc .iconc5:hover{
+    transform: scale(1.1);
+}
+.conttitle4 .contc .iconc6{
+    width: 40px;
+    height: 40px;
+    color: red;
+    margin-left: -12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.conttitle4 .contc .iconc6:hover{
+    transform: scale(1.1);
+}
+.conttitle4 .contc .iconc6 .contentc6{
+    margin-left: -13px;
+}
+
+
+
+
+
+.location{
+    justify-content: center;
+    align-items: center;
+}
+.location .heading{
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'bell';
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.location img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.location img:hover{
+    transform: scale(1.1);
+}
+.location .mapimg{
+    justify-content: center;
+    align-items: center;
+}
+.location .buttonc{
+    border-radius: 20px;
+    border: 3px solid #539727;
+    box-shadow: 1px 1px 3px #00000054 ,inset 0px 0px 8px 1px #6b6b6b21;
+    width: 200px;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'unicode';
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+    padding: 3px;
+    left: 60px;
+}
+.buttonc:hover{
+    transform: scale(1.1);
+}
+.location .contentloc{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+/*.Latest .conttitle2{
+    display: flex;
+    flex-direction: column;
+}*/
+.Latest .conttitle2 .wrap .post_1{
+    width: 70px;
+    height: 70px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Latest .conttitle2 .wrap .post_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Latest .conttitle2 .wrap .post_3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.post_1:hover{
+    transform: scale(1.1);
+}
+.post_2:hover{
+    transform: scale(1.1);
+}
+.post_3:hover{
+    transform: scale(1.1);
+}

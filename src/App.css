@@ -1,0 +1,23 @@
+/*@font-face {
+  font-family: "Regular";   
+  src: local("PRISTINA"),
+    url("./PRISTINA.TTF") format("truetype");
+}
+.app{
+  font-family:'Regular';
+}
+
+*/
+
+#preloader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  overflow: visible;
+  background: url('./assests/loader.gif') no-repeat center center;
+background-size: contain;
+}
+#content{
+  display: none;
+}

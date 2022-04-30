@@ -1,0 +1,67 @@
+.light-mode {
+	#toggle {
+		border-color: #ff1b5b;
+		&:before {
+			background-color: #ff1859;
+			color: #fff;
+		}
+	}
+}
+
+.dark-mode {
+	background-color: #121212;
+	color: #ccc;
+	#toggle {
+		border-color: dodgerblue;
+		&:before {
+			background-color: dodgerblue;
+			color: #121212;
+		}
+	}
+}
+
+
+label {
+	text-align: center;
+}
+
+div {
+	margin: 0 auto;
+	width: 125px;
+	margin-top: 40px;
+}
+
+input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 110px;
+	height: 54px;
+	position: relative;
+	border: 2px solid;
+	border-radius: 60px;
+	&:before {
+		content: "\e518";
+		font-family: "Material Icons";
+		border-radius: 50%;
+		box-sizing: border-box;
+		position: absolute;
+		vertical-align: middle;
+		padding: 5px 5px;
+		line-height: 1;
+		font-size: 36px;
+		bottom: 2px;
+		left: 2px;
+		width: 46px;
+		height: 46px;
+		transform: rotate(0deg);
+		transition: transform 0.5s, left 0.5s;
+	}
+	&:checked {
+		&:before {
+			content: "\e51c";
+			left: 58px;
+			transform: rotate(360deg);
+		}
+	}
+}

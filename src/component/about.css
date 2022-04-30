@@ -1,0 +1,182 @@
+*{
+    text-decoration: none;
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+@font-face {
+  font-family: "unicode";   
+  src: local("LUDICA"),
+    url("../Lucida Sans Unicode.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bell";   
+  src: local("BELL MT"),
+    url("../BellMTBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Regular";   
+    src: local("POORRICHARD"),
+      url("../POORICH.TTF") format("truetype");
+}
+
+
+.aboutsection{
+    width: 100%;
+    height: 250vh;
+    /*background: rgba(255, 214, 214, 0.831);*/
+}
+.aboutsection .up1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aboutsection .up1 .ct1 .ti1{
+    font-family: 'Regular';
+    font-size: 50px;
+    color: #FFB300;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px #0000002b;
+}
+
+.aboutsection .ct1 .pra2{
+    font-family: 'unicode';
+    margin-top: -23px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.aboutsection .up1 .aboutimg {
+    margin-top: 13px;
+    height: 432px;
+    width: 567px;
+    display: inline-block;
+}
+
+.aboutsection .up1 .ct1{
+    margin-left: 12%;
+    text-align: left;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+
+/*---- msg ----*/
+.buttonmsg{
+    position: relative;
+    left: 50px;
+}
+.msg{
+    border-radius: 25px;
+    border: 3px solid #FFB300;
+    box-shadow: 1px 1px 3px #00000054 ,inset 0px 0px 8px 1px #6b6b6b21;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'unicode';
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.msg:hover{
+    transform: scale(1.1);
+}
+
+/* ---- middle cont ---- */
+.middlecont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head{
+    font-family: 'Regular';
+    font-size: 50px;
+    color: #539727;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px #0000002b;
+}
+
+.locont{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_first{
+    width: 500px;
+    height: 260px;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2fb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2fb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000007a, 0px 0px 19px 11px #6b6b6b21;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.container_first .title_1{
+    font-family: 'Regular';
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 0px 4px 4px #0000002b;
+    margin-bottom: 1px;
+}
+.container_first .sub_title1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'unicode';
+}
+
+
+.container_second{
+    width: 500px;
+    height: 200px;
+    background: #ffe359d9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe359d9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe359d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px #0000007a, 0px 0px 19px 11px #6b6b6b21;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container_second .title_2{
+    font-family: 'Regular';
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 0px 4px 4px #0000002b;
+    margin-bottom: 1px;
+}
+.container_second .sub_title2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'unicode';
+}
+
+.sign{
+    position: relative;
+    left: 165px;
+}
+.sign1{
+    font-family: 'Regular';
+    font-size: 35px;
+    font-weight: 600px;
+}
